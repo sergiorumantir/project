@@ -1,0 +1,41 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-size: 100%;
+}
+
+section h2 {
+  background: white;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+  padding: 10px;
+  text-align: center;
+  font-family: verdana;
+}
+
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 600px;
+    text-align: right;
+    font-weight: bold;
+    font-family: arial;
+    padding: 5px;
+}
+
+select {
+  display: inline-block;
+  float: left;
+}
+
+input {
+  display: inline-block;
+  float: left;
+}
+
+#submit {
+  margin-left: 600px;
+  width: 80px;
+  font-size: 30px;
+}
